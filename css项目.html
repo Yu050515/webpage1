@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>前端上 CSS项目</title>
+    <style type="text/css">
+        .p1{background-image: url('https://resource.bcgame-face2face.haorenao.cn/slide01.jpg');no-repeat;width:100%;height:300px;}
+        .p2{background-image: url('https://resource.bcgame-face2face.haorenao.cn/slide04.jpg');no-repeat;width:100%;height:100px;}
+        .parentWrap{
+            overflow: hidden;
+        }
+        .parent{
+            margin-right: -20px;
+            overflow: hidden;
+        }
+        .child{
+            float: left;
+            height: 550px;
+            width: 50%;
+            padding-right: 20px;
+            box-sizing: border-box;
+            background-clip: content-box;
+        }
+        .h_image{
+            width: 100%;
+            background: blue;
+         }
+         
+         .top_left,.top_right,.foot_left,.foot_right{
+         	float: left;
+         	background: azure;
+         	width: 50%;
+         	height: 400px;
+         	
+         	         }
+         
+    </style>
+</head>
+<body>
+<p class="p1" style="text-align: center;color: aliceblue;padding-top: 100px; font-size: large;">A FREE RESPONSIVE WEB SITE TEMPLATE BY TEMPLATED<br>_________________________________________<br>HELLO</p >
+
+<div class="parentWrap">
+    <div class="parent" style="background-color: lightgrey;">
+        <div class="child" style="background-color: lightblue;">
+            <img src="https://resource.bcgame-face2face.haorenao.cn/pic02.jpg" width="100%";height="300px";no-repeat;>
+            <p style="text-align: center;color:cornflowerblue;">
+            maecenas sapien feugiat ex purus<br>__________________<br>Lorem ipsum dolor<br><br>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.
+            </p >
+            <div align="center">
+            <button type="button" style="color: deepskyblue;border: none;height: 20px;">LEARN MORE</button>
+            </div>
+        </div>
+        <div class="child" style="background-color: lightgreen;">
+            <img src="https://resource.bcgame-face2face.haorenao.cn/pic03.jpg" width="100%";height="300px";no-repeat;>
+            <p style="text-align: center;color:darksalmon;">
+            mattis elementum sapien pretium tellus<br>________________<br>Vestibulum sit amet<br><br>Cras aliquet urna ut sapien tincidunt, quis malesuada elit facilisis. Vestibulum sit amet tortor velit. Nam elementum nibh a libero pharetra elementum. Maecenas feugiat ex purus, quis volutpat lacus placerat malesuada.
+            </p >
+            <div align="center">
+            <button type="button" style="color: deepskyblue;border: none;height: 20px;">LEARN MORE</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="h_image">
+    <p class="p2" style="text-align: center;color: aliceblue;padding-top: 100px; font-size: large;">Nam vel ante sit amet libero scelerisque facilisis eleifend vitae urna<br/>_________________________________________<br><b>Morbi maximus justo</b></p >
+</div>
+<div>
+	<p style="text-align: center;"><br><br>Nam vel ante sit amet libero scelerisque facilisis eleifend vitae urna<br>________________________________________________________<br><br><b>Morbi maximus justo</b></p>
+</div>
+
+<div class="top_left">
+	<img src="https://resource.bcgame-face2face.haorenao.cn/pic01.jpg" >
+</div>
+<div class='top_right'>
+	<img src="https://resource.bcgame-face2face.haorenao.cn/pic03.jpg" >
+</div>
+<div class='foot_left'>
+	<img src="https://resource.bcgame-face2face.haorenao.cn/pic03.jpg" >
+</div>
+<div class='foot_right'>
+	<img src="https://resource.bcgame-face2face.haorenao.cn/pic01.jpg" >
+</div>
+
+<p style="text-align: center;background: black;color: aliceblue;">© Untitled. All rights reserved.</p>
+</body>
+</html>
